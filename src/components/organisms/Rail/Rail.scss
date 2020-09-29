@@ -1,0 +1,79 @@
+.episode-rails {
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__body {
+    display: grid;
+    grid-gap: 1rem;
+    margin: auto;
+
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 900px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+}
+
+.network-rails {
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__body {
+    display: grid;
+    grid-gap: 1rem;
+    margin: auto;
+
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 900px) {
+      grid-template-columns: repeat(8, 1fr);
+    }
+  }
+}
+
+.playlist-rails {
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__body {
+    display: grid;
+    grid-gap: 1rem;
+    margin: auto;
+
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 900px) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+}
+
+.series-rails {
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__body {
+    display: grid;
+    grid-gap: 1rem;
+    margin: auto;
+
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 900px) {
+      grid-template-columns: repeat(8, 1fr);
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.text-wrapper {
+  margin: 0;
+  line-height: 1.4;
+  color: #fff;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.text-wrapper--text-xs {
+  font-size: 12px;
+}
+
+.text-wrapper--text-sm {
+  font-size: 14px;
+}
+
+.text-wrapper--text-base {
+  font-size: 16px;
+}
+
+.text-wrapper--text-md {
+  font-size: 18px;
+}
+
+.text-wrapper--text-lg {
+  font-size: 20px;
+}
+.text-wrapper--text-xl {
+  font-size: 22px;
+}
+
+.text-wrapper--text-white {
+  color: rgb(255, 255, 255);
+}
+
+.text-wrapper--text-gray {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.text-wrapper--text-lightgray {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-wrapper--text-normal {
+  font-weight: 500;
+}
+
+.text-wrapper--text-bold {
+  font-weight: 900;
+}

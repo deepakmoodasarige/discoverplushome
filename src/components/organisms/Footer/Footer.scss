@@ -1,0 +1,29 @@
+.footer {
+  margin-left: -20px;
+  margin-right: -20px;
+
+  &__head {
+    padding: 20px 27px 20px 27px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &__bottom {
+    padding: 0 27px 20px 27px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &_social-media-btn--rouned {
+    border: 1px solid #ddd;
+    margin: 0 0.5rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+  }
+}
